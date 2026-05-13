@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Patitas Felices</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+
+    <!-- HEADER / NAV -->
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <img src="./assets/logo.png" alt="Patitas Felices">
+                <span class="logo-text">Patitas Felices</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./index.html#nosotros">Nosotros</a></li>
+                <li><a href="./index.html#mision-vision">Misión</a></li>
+                <li><a href="./index.html#galeria">Galería</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CONTACTO -->
+        <section class="contacto">
+            <div class="container">
+
+                <h2 class="section-title">Contáctanos 🐾</h2>
+                <p class="contacto-subtitulo">¿Quieres adoptar, donar o ser voluntario? Escríbenos y te responderemos pronto.</p>
+
+                <div class="contacto-content">
+
+                    <!-- FORMULARIO -->
+                    <div class="contacto-form">
+
+                        <form action="" method="">
+
+                            <div class="form-grupo">
+                                <label for="nombre">Nombre <span class="obligatorio">*</span></label>
+                                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="apellidos">Apellidos <span class="obligatorio">*</span></label>
+                                <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" required>
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="ciudad">Ciudad <span class="obligatorio">*</span></label>
+                                <input type="text" id="ciudad" name="ciudad" placeholder="Tu ciudad" required>
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="correo">Correo electrónico <span class="obligatorio">*</span></label>
+                                <input type="email" id="correo" name="correo" placeholder="tucorreo@email.com" required>
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="telefono">Teléfono</label>
+                                <input type="tel" id="telefono" name="telefono" placeholder="+57 300 000 0000">
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="consulta">Tipo de consulta <span class="obligatorio">*</span></label>
+                                <select id="consulta" name="consulta" required>
+                                    <option value="" disabled selected>Selecciona una opción</option>
+                                    <option value="adopcion">Adopción</option>
+                                    <option value="donacion">Donación</option>
+                                    <option value="voluntariado">Voluntariado</option>
+                                    <option value="informacion">Información general</option>
+                                    <option value="otro">Otro</option>
+                                </select>
+                            </div>
+
+                            <div class="form-grupo">
+                                <label for="mensaje">Mensaje <span class="obligatorio">*</span></label>
+                                <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+
+                            <!-- ESTADO ERROR (ejemplo visual) -->
+                            <div class="form-grupo error">
+                                <label for="nombre-error">Nombre <span class="obligatorio">*</span></label>
+                                <input type="text" id="nombre-error" placeholder="Tu nombre">
+                                <span class="mensaje-error">⚠️ Este campo es obligatorio</span>
+                            </div>
+
+                            <!-- ESTADO SUCCESS (ejemplo visual) -->
+                            <div class="form-grupo success">
+                                <label for="correo-success">Correo electrónico <span class="obligatorio">*</span></label>
+                                <input type="email" id="correo-success" value="ejemplo@correo.com">
+                                <span class="mensaje-success">✅ Correo válido</span>
+                            </div>
+
+                            <input type="submit" value="Enviar mensaje 🐾" class="btn-submit">
+
+                        </form>
+
+                    </div>
+
+                    <!-- INFORMACIÓN DE CONTACTO -->
+                    <div class="contacto-info">
+
+                        <article class="info-card">
+                            <span>📧</span>
+                            <h3>Correo</h3>
+                            <p>infopatitasfelices@gmail.com</p>
+                        </article>
+
+                        <article class="info-card">
+                            <span>📞</span>
+                            <h3>Teléfono</h3>
+                            <p>+57 300 123 4567</p>
+                        </article>
+
+                        <article class="info-card">
+                            <span>📍</span>
+                            <h3>Dirección</h3>
+                            <p>Calle 45 # 23-10, Bucaramanga, Colombia</p>
+                        </article>
+
+                        <article class="info-card">
+                            <span>🕐</span>
+                            <h3>Horario</h3>
+                            <p>Lunes a Viernes: 8am - 6pm<br>Sábados: 9am - 2pm</p>
+                        </article>
+
+                        <div class="contacto-social">
+                            <h3>Redes sociales</h3>
+                            <a href="#">📘 Facebook</a>
+                            <a href="#">📸 Instagram</a>
+                        
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+
+            <div class="footer-container">
+
+                <div class="footer-brand">
+                    <img src="./assets/logo.png" alt="Patitas Felices">
+                    <span class="logo-text">Patitas Felices</span>
+                    <p>Rescatando vidas desde 2015 🐾</p>
+                </div>
+
+                <div class="footer-contacto">
+                    <h4>Contacto</h4>
+                    <p>📧 infopatitasfelices@gmail.com</p>
+                    <p>📞 +57 300 123 4567</p>
+                    <div class="footer-social">
+                        <a href="#">📘 Facebook</a>
+                        <a href="#">📸 Instagram</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Patitas Felices. Todos los derechos reservados.</p>
+                <p>Desarrollado por <a href="#">Aldair Correa</a></p>
+            </div>
+
+        </div>
+    </footer>
+
+</body>
+</html>

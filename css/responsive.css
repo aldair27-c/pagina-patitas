@@ -1,0 +1,157 @@
+/* ============================================
+   RESPONSIVE - TABLETS (max 768px)
+   ============================================ */
+
+@media screen and (max-width: 768px) {
+
+    /* NAV */
+    nav {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .nav-links {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    /* HERO */
+    .hero {
+        flex-direction: column;
+        padding: 40px 20px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .hero-texto h1 {
+        font-size: 2rem;
+    }
+
+    .hero-texto {
+        max-width: 100%;
+    }
+
+    /* CARRUSEL */
+    .carousel-track {
+        height: 300px;
+    }
+
+    /* ABOUT */
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-botones {
+        justify-content: center;
+    }
+
+    /* MISIÓN Y VISIÓN */
+    .mv-content {
+        flex-direction: column;
+    }
+
+    /* GALERÍA */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* TESTIMONIOS */
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* CONTACTO */
+    .contacto-content {
+        flex-direction: column;
+    }
+
+    /* FOOTER */
+    .footer-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    /* PERFIL ANIMAL */
+    .perfil-content {
+        flex-direction: column;
+    }
+
+    .perfil-caracteristicas {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+/* ============================================
+   RESPONSIVE - MÓVIL (max 480px)
+   ============================================ */
+
+@media screen and (max-width: 480px) {
+
+    /* NAV */
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        font-size: 0.85rem;
+    }
+
+    /* HERO */
+    .hero-texto h1 {
+        font-size: 1.6rem;
+    }
+
+    .hero-texto p {
+        font-size: 0.95rem;
+    }
+
+    /* CARRUSEL */
+    .carousel-track {
+        height: 220px;
+    }
+
+    /* SECTION TITLE */
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    /* GALERÍA */
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* MISIÓN Y VISIÓN */
+    .mv-card {
+        padding: 25px 20px;
+    }
+
+    /* CONTACTO */
+    .contacto-form {
+        padding: 25px 20px;
+    }
+
+    /* PERFIL ANIMAL */
+    .perfil-caracteristicas {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .perfil-info h1 {
+        font-size: 2rem;
+    }
+
+    /* FOOTER */
+    .footer-bottom {
+        gap: 8px;
+    }
+
+}
